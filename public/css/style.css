@@ -1,0 +1,83 @@
+
+/* 
+---------------------------------------
+general ruels
+---------------------------------------
+ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* 
+---------------------------------------
+header master styles
+---------------------------------------
+ */
+ header{
+    padding: 10px 20px  ;
+    background-color: #eee;
+ }
+.nav .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav .logo{
+    color: rgb(187, 54, 76);
+    font-weight: bold;
+    font-size: 19px;
+    text-shadow: 9px 3px 24px  rgba(187, 54, 76, 0.753);
+}
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul a{
+    color: #555;
+    margin-right: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+ /* 
+---------------------------------------
+Login styles
+---------------------------------------
+ */
+
+.login .container{
+    position: relative;
+    min-height: 100vh;
+}
+.login .container .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #eee;
+}
+ /* 
+---------------------------------------
+Home styles
+---------------------------------------
+ */
+.home .container{
+    padding-top: 150px;
+}
+
